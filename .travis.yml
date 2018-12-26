@@ -10,6 +10,9 @@ install:
 script: 
   - python test.py
   - a=1
+  - pwd
+  - mkdir test;cd test
+  - pwd
   - echo "a is __${a}__ "
   - dsfsdafsdfsd
   - echo "a is __${a}__ "
