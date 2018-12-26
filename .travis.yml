@@ -10,7 +10,7 @@ install:
 script: 
   - python test.py
   - export path=$path:/data/willion_test
-  - export 
+  - echo $path 
   - a=1
   - pwd
   - mkdir test;cd test
