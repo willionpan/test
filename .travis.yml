@@ -13,3 +13,8 @@ script:
   - echo "a is __${a}__ "
   - dsfsdafsdfsd
   - echo "a is __${a}__ "
+  - if 1; then
+  -    echo "1111"
+  - else
+  -    echo "2222"
+  - fi 
