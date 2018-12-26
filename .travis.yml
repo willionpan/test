@@ -9,3 +9,7 @@ install:
 # command to run tests
 script: 
   - python test.py
+  - a=1
+  - echo "a is __${a}__ "
+  - dsfsdafsdfsd
+  - echo "a is __${a}__ "
