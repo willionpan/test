@@ -12,10 +12,10 @@ script:
   - export path=$path:/data/willion_test
   - echo $path 
   - echo $0, $@;
-  - touch /data/test.txt
-  - cat /data/test.txt
-  - echo $0 >> /data/test.txt
-  - cat /data/test.txt
+  - touch ./test.txt
+  - cat ./test.txt
+  - echo $0 >> ./test.txt
+  - cat ./test.txt
   - a=1
   - pwd
   - mkdir test;cd test
