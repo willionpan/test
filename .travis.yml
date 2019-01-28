@@ -11,7 +11,8 @@ script:
   - python test.py
   - export path=$path:/data/willion_test
   - echo $path 
-  - echo $0;
+  - echo $0, $@;
+  - touch /data/test.txt
   - cat /data/test.txt
   - echo $0 >> /data/test.txt
   - cat /data/test.txt
