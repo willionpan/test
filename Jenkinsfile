@@ -6,6 +6,8 @@ pipeline {
         stage('Step 1.1') {
           steps {
             echo '1234'
+            sleep 1
+            echo '321'
           }
         }
         stage('Step1.2') {
