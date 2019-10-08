@@ -6,13 +6,16 @@ pipeline {
         stage('Step 1.1') {
           steps {
             echo '1234'
-            sleep 1
+            sleep 10
             echo '321'
           }
         }
         stage('Step1.2') {
           steps {
+            echo '12345'
             bat(script: 'cd d:\\', returnStdout: true, returnStatus: true)
+            sleep 10
+            echo '22345'
           }
         }
       }
