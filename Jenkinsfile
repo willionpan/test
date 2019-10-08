@@ -18,6 +18,14 @@ pipeline {
             echo '22345'
           }
         }
+        stage('Step1.3') {
+          agent any
+          steps {
+            echo '333333'
+            sleep 10
+            echo '34444'
+          }
+        }
       }
     }
   }
