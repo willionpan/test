@@ -10,6 +10,7 @@ pipeline {
             echo '321'
           }
         }
+
         stage('Step1.2') {
           steps {
             echo '12345'
@@ -18,7 +19,15 @@ pipeline {
             echo '22345'
           }
         }
+
       }
     }
+
+    stage('') {
+      steps {
+        sh 'sleep 2'
+      }
+    }
+
   }
 }
