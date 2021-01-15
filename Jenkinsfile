@@ -23,9 +23,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Stage2') {
       steps {
-        sh 'sleep 2'
+        sleep 1
       }
     }
 
