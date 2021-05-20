@@ -8,12 +8,15 @@ pipeline {
             echo '1234'
           }
         }
+
         stage('Step1.2') {
           steps {
-            bat(script: 'cd d:\\', returnStdout: true, returnStatus: true)
+            bat(script: 'set', returnStdout: true, returnStatus: true)
           }
         }
+
       }
     }
+
   }
 }
