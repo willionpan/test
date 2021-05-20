@@ -11,7 +11,7 @@ pipeline {
 
         stage('Step1.2') {
           steps {
-            bat(script: 'set', returnStdout: true, returnStatus: true)
+            bat(script: 'd:\\run.bat', returnStdout: true, returnStatus: true)
           }
         }
 
