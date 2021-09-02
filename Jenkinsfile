@@ -11,7 +11,8 @@ pipeline {
 
         stage('Step1.2') {
           steps {
-            bat(script: 'd:\\run.bat', returnStatus: true)
+            bat(script: 'cd D:\\安装程序', returnStatus: true)
+            bat(script: 'pwd', returnStatus: true)
           }
         }
 
