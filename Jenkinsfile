@@ -11,7 +11,7 @@ pipeline {
 
         stage('Step1.2') {
           steps {
-            bat(script: 'cd D:\\安装程序', returnStatus: true)
+            bat(script: 'cd D:\\安装程序', returnStatus: true, encoding: 'gbk')
             bat(script: 'pwd', returnStatus: true)
           }
         }
